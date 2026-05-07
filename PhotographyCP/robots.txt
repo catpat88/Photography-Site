@@ -1,0 +1,12 @@
+# Applies to all search engine bots
+User-agent: *
+
+# Allow all pages to be indexed
+Allow: /
+
+# Disallow crawling of internal asset folders to save crawl budget
+Disallow: /assets/
+Disallow: /sass/
+
+# Link to your XML sitemap
+Sitemap: http://josmithphotography.com/sitemap.xml
