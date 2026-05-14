@@ -26,13 +26,20 @@
     <meta name="twitter:title" content="Jo Smith Photography">
     <meta name="twitter:description" content="Capturing weddings, portraits, and nature photography in Dundee.">
     <meta name="twitter:image" content="../media/images/Fulls1/JoSmithLogo9.svg">
-  
+      
+    <!-- 1. Preconnect to the font servers (Essential for mobile speed) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <!-- Links - Stylesheets -->
+    <!-- 2. The ONLY font link you need (Combined and optimized) -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic&display=swap" rel="stylesheet">
+
+    <!-- 3. Your other CSS links -->
+    <link rel="preload" href="../assets/css/main.css" as="style">
     <link rel="stylesheet" href="../assets/css/main.css" />
-    <link rel="icon" type="image/png" sizes="32x32" href="../media/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../media/images/favicons/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../media/images/favicons/apple-touch-icon.png">
+
+    <!-- 4. The FontAwesome 'Trick' -->
+    <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css" media="print" onload="this.media='all'">
 
   </head>
   <body class="is-preload">
@@ -64,8 +71,8 @@
           <img src="../media/images/Fulls1/JoSmithLogo9.svg" alt="Jo Smith Photography - Dundee Wedding & Nature Specialist" />
         </a>
       <!-- Main Heading-->
-      <h1>Wedding & Nature Photographer in Dundee</h1>
-      <p>Authentic storytelling by Jo Smith, specialising in Scottish elopements and atmospheric landscapes.</p>
+      <h1>Wedding & Nature Photographer Based in Dundee | Scotland</h1>
+      <p class="head-par">Jo Smith is a professional photographer, specialising in Scottish elopements and atmospheric landscape photography.</p>
 
       
       </div>
@@ -83,7 +90,7 @@
         </header>
         <p>I am a visual storyteller inspired by the rugged landscapes of the North. From intimate Dundee weddings to adventurous Scottish elopements in the heart of the Highlands, I focus on capturing raw, unscripted beauty. Whether I’m framing a quiet moment between a couple or the vast scale of the Scottish wilderness, my goal is to create timeless images that tell your unique story.</p>
         <ul class="actions">
-          <li><a href="/pages/contact.html" class="button">Contact Me</a></li>
+          <li><a href="pages/contact.html" class="button">Contact Me</a></li>
         </ul>
       </section>
 
@@ -92,32 +99,64 @@
         <h2>Recent Work</h2>
         <div class="row">
           <article class="col-6 col-12-xsmall work-item">
-            <a href="../media/images/fulls1/photog6full.jpg" class="image fit thumb"><img src="../media/images/Smalls1/photog6small.jpg" alt="Wedding photography shoot on the beach nearby Dundee shot by Jo Smith" /></a>
+            <a href="../media/images/fulls1/photog6full.webp" class="image fit thumb"><img src="../media/images/Smalls1/photog6small.webp" 
+            srcset="../media/images/Smalls1/photog6-mobile.webp 400w, ../media/images/Smalls1/photog6small.webp 800w" 
+            sizes="(max-width: 600px) 400px, 800px" 
+            width="600" 
+            height="400" 
+            loading="lazy"
+            style="width: 100%; height: auto; display: block;"
+            alt="Wedding photography shoot on the beach nearby Dundee shot by Jo Smith" /></a>
             <h3>Beach Wedding Photography | Broughty Ferry</h3>
             <p>Here I am on a wedding photoshoot at the beach near Dundee</p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
-            <a href="../media/images/Fulls1/photog2full.jpg" class="image fit thumb"><img src="../media/images/Smalls1/photog2small.jpg" alt="Wedding photography session in the Scottish Highlands near Dundee by Jo Smith" /></a>
+            <a href="../media/images/Fulls1/photog2full.webp" class="image fit thumb"><img src="../media/images/Smalls1/photog2small.webp" srcset="../media/images/Smalls1/photog2-mobile.webp 400w, ../media/images/Smalls1/photog2small.webp 800w" 
+            sizes="(max-width: 600px) 400px, 800px" 
+            width="600" 
+            height="400" 
+            loading="lazy"
+            style="width: 100%; height: auto; display: block;" alt="Wedding photography session in the Scottish Highlands near Dundee by Jo Smith" /></a>
             <h3>Highland Elopement | Karen & John</h3>
             <p>Clients Karen & John Wanted a Backdrop To Remember in the Scottish Highlands</p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
-            <a href="../media/images/Fulls1/photog3full.jpg" class="image fit thumb"><img src="../media/images/Smalls1/photog3small.jpg" alt="Wedding photo shoot in a traditional style by Jo Smith Photography Dundee" /></a>
+            <a href="../media/images/Fulls1/photog3full.webp" class="image fit thumb"><img src="../media/images/Smalls1/photog3small.webp" srcset="../media/images/Smalls1/photog3-mobile.webp 400w, ../media/images/Smalls1/photog3small.webp 800w" 
+            sizes="(max-width: 600px) 400px, 800px" 
+            width="600" 
+            height="400" 
+            loading="lazy"
+            style="width: 100%; height: auto; display: block;" alt="Wedding photo shoot in a traditional style by Jo Smith Photography Dundee" /></a>
             <h3>A Beautiful Moment To Cherish | Stephen & Lesley</h3>
             <p>An In Action Shot Close Up of a Stunning Scottish Wedding in Dundee</p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
-            <a href="../media/images/Fulls1/photog7full.jpg" class="image fit thumb"><img src="../media/images/Smalls1/photog7small.jpg" alt="Wedding shoot at a traditional wedding in Dundee by Jo Smith Photography" /></a>
+            <a href="../media/images/Fulls1/photog7full.webp" class="image fit thumb"><img src="../media/images/Smalls1/photog7small.webp" srcset="../media/images/Smalls1/photog7-mobile.webp 400w, ../media/images/Smalls1/photog7small.webp 800w" 
+            sizes="(max-width: 600px) 400px, 800px" 
+            width="600" 
+            height="400" 
+            loading="lazy"
+            style="width: 100%; height: auto; display: block;" alt="Wedding shoot at a traditional wedding in Dundee by Jo Smith Photography" /></a>
             <h3>Capturing Special Moments Is What I Do Best</h3>
             <p>My Work at a Very Special Scottish Wedding in Dundee With Amy & David</p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
-            <a href="../media/images/Fulls1/photog5full.jpg" class="image fit thumb"><img src="../media/images/Smalls1/photog5small.jpg" alt="Nature photo shoot by the water near Dundee by Jo Smith Photography" /></a>
+            <a href="../media/images/Fulls1/photog5full.webp" class="image fit thumb"><img src="../media/images/Smalls1/photog5small.webp" srcset="../media/images/Smalls1/photog5-mobile.webp 400w, ../media/images/Smalls1/photog5small.webp 800w" 
+            sizes="(max-width: 600px) 400px, 800px" 
+            width="600" 
+            height="400" 
+            loading="lazy"
+            style="width: 100%; height: auto; display: block;" alt="Nature photo shoot by the water near Dundee by Jo Smith Photography" /></a>
             <h3>By The Water | Stunning Scottish Landscape Shots</h3>
             <p>I visited Gutberg island in Scotland to photograph this scenic view, shot at dusk</p>
           </article>
           <article class="col-6 col-12-xsmall work-item">
-            <a href="../media/images/Fulls1/photog11full.jpg" class="image fit thumb"><img src="../media/images/Smalls1/photog11small.jpg" alt="Nature shoot in the west coast of scotland by Jo Smith Photography Dundee" /></a>
+            <a href="../media/images/Fulls1/photog11full.webp" class="image fit thumb"><img src="../media/images/Smalls1/photog11small.webp" srcset="../media/images/Smalls1/photog11-mobile.webp 400w, ../media/images/Smalls1/photog11small.webp 800w" 
+            sizes="(max-width: 600px) 400px, 800px" 
+            width="600" 
+            height="400" 
+            loading="lazy"
+            style="width: 100%; height: auto; display: block;" alt="Nature shoot in the west coast of scotland by Jo Smith Photography Dundee" /></a>
             <h3>Scottish Seabanks | Beautiful Coastal Landscapes</h3>
             <p>I visited Applecross To Capture This Beautiful Coastal View. Shot in the West Coast of Scotland.</p>
           </article>
@@ -125,6 +164,34 @@
         <ul class="actions">
           <li><a href="/pages/gallery.html" class="button">Full Portfolio</a></li>
         </ul>
+      </section>
+
+      <!-- Reviews Section -->
+      <section id="reviews">
+          <h2>What My Clients Say</h2>
+          <div class="testimonial-slider">
+              <!-- Review 1 -->
+              <div class="testimonial-item">
+                  <blockquote>
+                      "Jo captured our Highland elopement perfectly. The photos are atmospheric, raw, and exactly what we wanted."
+                      <cite>— Sarah & Marc, Glencoe</cite>
+                  </blockquote>
+              </div>
+              <!-- Review 2 -->
+              <div class="testimonial-item">
+                  <blockquote>
+                      "Professional, patient, and incredibly talented. Jo's ability to capture intimate wedding moments in Dundee is what truly sets her apart."
+                      <cite>— David L., Dundee</cite>
+                  </blockquote>
+              </div>
+              <!-- Review 3 -->
+              <div class="testimonial-item">
+                  <blockquote>
+                      "The nature shots are breathtaking! Jo really has an eye for the Scottish landscape."
+                      <cite>— Fiona K., Perth</cite>
+                  </blockquote>
+              </div>
+          </div>
       </section>
 
       <!-- Three -->
@@ -149,7 +216,7 @@
                 </div>
                 <div class="col-12">
                   <ul class="actions">
-                    <li><input type="submit" value="Send Message" class="primary" /></li>
+                    <li><input type="submit" value="Send Message" class="secondary" /></li>
                   </ul>
                 </div>
               </div>

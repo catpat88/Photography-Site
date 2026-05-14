@@ -1,6 +1,3 @@
-@import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
-
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -2602,7 +2599,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../media/images/Fulls1/heroImg.jpg");
+		background-image: url("images/overlay.webp"), url("../../media/images/Fulls1/heroImg.webp");
 		background-repeat: repeat, no-repeat;
 		background-position: top left, center;
 		background-size: auto, cover; 
@@ -3543,5 +3540,80 @@ input, select, textarea {
 .icon.solid.fa-home, .icon.solid.fa-envelope {
 	color: #2e7b65;
 }
+
+/* SECONDARY BUTTON */
+input.secondary{
+	color: #ffffff !important;
+	background-color: #2e7b65 !important;
+}
+
+input.secondary:hover{
+	color: #ffffff !important;
+	background-color: #0a6152 !important;
+	box-shadow: #2e7b65 2px 2px 5px;
+	font-weight: bold;
+	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.head-par{
+	font-size: 1.1em;
+	line-height: 1.6em;
+	color: #ffffff !important;
+}
+
+/* REVIEWS SECTION */
+#reviews {
+    background-color: #f4f7f3; 
+    padding: 4rem 3rem;        /* Increased padding for better 'breathing room' */
+    margin: 3rem 0;            /* Space between sections */
+    border-top: 1px solid #e1e8e0;
+    border-bottom: 1px solid #e1e8e0;
+    border-radius: 12px;       /* Slightly rounder for a modern look */
+    text-align: center;        /* This centers the <h2> and the text inside */
+}
+
+.testimonial-slider {
+    background: transparent;
+    max-width: 750px;          /* Restricts width so lines don't get too long to read */
+    margin: 0 auto;            /* Centers the slider inside the #reviews box */
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonial-item {
+    display: none; 
+    padding: 20px 0;
+    animation: fadeEffect 1s;
+}
+
+#reviews blockquote {
+    font-style: italic;
+    font-size: 1.2rem;         /* Slightly larger for a 'featured' feel */
+    color: #444;
+    border-left: none;         /* Removed border to match centered style */
+    padding: 0;
+    margin: 0 auto;
+    line-height: 1.8;          /* Increased line height for accessibility */
+    max-width: 90%;            /* Keeps text from hitting the very edge of the box */
+}
+
+#reviews cite {
+    display: block;
+    color: #2e7b65;            
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    letter-spacing: 1px;       
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+
 
 
