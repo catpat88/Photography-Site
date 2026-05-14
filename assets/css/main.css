@@ -3527,3 +3527,21 @@ input, select, textarea {
   100% { transform: translateX(-100%); }
 }
 
+/* FORM STYLING */
+.formpar{
+	margin-bottom: 1.5em !important;
+}
+
+/* text labels inside the contact form */
+#contact-form label {
+    color: #2e7b65; 
+    display: block;  
+    margin-bottom: 8px; 
+    font-weight: 600; 
+}
+
+.icon.solid.fa-home, .icon.solid.fa-envelope {
+	color: #2e7b65;
+}
+
+
